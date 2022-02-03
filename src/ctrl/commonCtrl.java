@@ -35,7 +35,7 @@ public class commonCtrl extends HttpServlet {
 
 				String viewPage = null;
 				binfoCmd bcmd = null;
-				pplanCmd pcmd = null;
+				pplanCmd pcmd = null;   
 				fmiddleInterface fmiddleCmd = null;
 				fmiddleCmd = new fmiddleCmd();
 

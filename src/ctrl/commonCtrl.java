@@ -38,7 +38,7 @@ public class commonCtrl extends HttpServlet {
 				pplanCmd pcmd = null;   
 				fmiddleInterface fmiddleCmd = null;
 				fmiddleCmd = new fmiddleCmd();
-
+  
 				String uri = request.getRequestURI();  
 				System.out.println(uri);
 				String conPath = request.getContextPath();

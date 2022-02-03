@@ -1,0 +1,150 @@
+﻿@charset "utf-8";{
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-size:10pt;
+}
+
+a{
+	text-decoration:none;
+}
+
+nav {
+  margin-left: auto;
+  margin-right:auto;
+}
+
+
+.iframeBox{
+	  position: relative;
+  padding-bottom: 25%;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html,body{
+	width:100%;
+	height: 100vh;
+	margin:0;
+	scroll:no;
+	overflow:hidden;
+}
+.container {
+	width:100vw;
+	height:55vh;
+	position:relative;
+}
+
+.ppContainer {
+	width:100vw;
+	height:45vh;
+	position:relative;
+}
+
+
+table{
+	border-collapse:collapse;  !important;
+	border-spacing:0; !important;
+	width:100%;
+	table-layout:fixed;
+
+}
+
+tr td {
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	padding: 0 !important;
+ 	margin: 0 !important;
+ 	border-collapse:collapse !important;
+	border-spacing:0 !important;
+}
+
+th{
+	border-spacing: 0px;
+    border-style: none;
+    padding: 0px;
+   	overflow:hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+
+.navContainer{
+	width:100vw;
+	height:20vh;
+	position:relative;
+}
+
+.navbar-brand {
+	padding-left:1rem !important;
+
+}
+
+hr{
+
+	margin: 0rem 0;
+}
+
+.createSubject {
+	width:100px;
+	height:30px;
+	font-size:14px;
+	background-color:#f8f9fa;
+}
+
+.createInput {
+  width:80%;
+  height:27px;
+  font-size:12px;
+}
+.tableContainerALL {
+	width:100vh;
+	height:100vh;
+}
+.tableContainer {
+	width:50%;
+	float:left;
+}
+.tableContainerBottom{
+	width:100vh;
+	height:20vh;
+	float:left;
+
+
+}
+
+.searchDivInput{
+	float:left;
+}
+
+.searchDivBtn {
+	margin: 0px 0px 0px 0px;
+	float:right;
+}
+
+.createBtn {
+	float:right;
+	padding-top:2vh;
+
+}
+
+.tableTopName{
+	background-color:#f1f5f9;
+	font-size:calc(1.275rem + .3vw);
+	margin: 1rem 0rem 1rem 0rem;
+	border-bottom : 1px;
+
+}
+
+.createSubjectBlank{
+	width:100px;
+	height:30px;
+
+}

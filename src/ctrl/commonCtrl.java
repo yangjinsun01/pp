@@ -39,7 +39,7 @@ public class commonCtrl extends HttpServlet {
 				fmiddleInterface fmiddleCmd = null;
 				fmiddleCmd = new fmiddleCmd();
 
-				String uri = request.getRequestURI();
+				String uri = request.getRequestURI();  
 				System.out.println(uri);
 				String conPath = request.getContextPath();
 				System.out.println(conPath);
@@ -48,7 +48,7 @@ public class commonCtrl extends HttpServlet {
 				if(com.equals("/ma/main_binfo.do")) {
 					bcmd = new binfoCmd();
 					bcmd.select(request, response);
-					viewPage = "/ma/binfo_s.jsp";
+					viewPage = "/ma/binfo_s.jsp";  
 					System.out.println(com);
 				}else if (com.equals("/ma/main_pplan.do")) {
 					pcmd = new pplanCmd();
